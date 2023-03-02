@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.8.2/bootstrap-icons.css"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="main.js"></script> -->
+</head>
+
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark  navbar-dark p-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-light h4">Cred</a>
+
+            <!-- button hamburger data-bs-toggle: colla[se makes it collapse , while data-bs-target: target the id ] -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <!-- span the navbar-toggler: class of the button and the icon -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- ms: margin side to move it to side -->
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item ">
+                        <a href="#home" class="nav-link active ">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#courses" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#about" class="nav-link ">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#contact" class="nav-link ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <!-- Hero Section -->
+
+    <section id="home" class="p-5  bg-light  text-dark mb-0">
+        <div class="container">
+            <div class="row align-items-center justify-content-between mt-3">
+                <div class="col-md p-5 me-5">
+                    <h1 class="font-width-normal mb-3 ">Grab your dream course in <span class="text-info">One
+                            step</span></h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae facilis nesciunt, placeat
+                        reprehenderit laboriosam quod!
+                    </p>
+                    <a href="#" class="btn btn-dark  fs-5 mt-3 px-4 text-light shadow-lg">
+                        Get Started
+                    </a>
+                    <a href="#" class="btn fs-5 btn-transparent text-dark btn-outline-info shadow-lg mt-3 mx-2 px-4 ">
+                        Learn more <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="img/IMG_20220122_195843_165.jpg" class="img-fluid mx-3 my-3 d-none d-sm-block w-100 mimg"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section two -->
+    <section class="p-5 bg-info text-dark ">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <h2 class="mb-2">5k</h2>
+                    <p class="fs-4 ">Course Completed</p>
+                    <div class="h1">
+                        <i class="bi bi-laptop"></i>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <h2 class="mb-2">10k</h2>
+                    <p class="fs-4 ">Student Enroll</p>
+                    <div class="h1">
+                        <i class="bi bi-people-fill"></i>
+                    </div>    
+                </div>
+                <div class="col-md">
+                    <h2 class="mb-2">100</h2>
+                    <p class="fs-4">Awards</p>
+                    <div class="h1">
+                        <i class="bi bi-award"></i>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- courses -->
+
+    <section class="p-5 bg-light text-dark" id="courses">
+        <div class="container">
+            <h2 class="text-center mt-4">Courses that We offer</h2>
+            <div class="row text-center g-2 mt-5 ">
+                <div class="col-md">
+                    <div class="card text-dark shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="mb-3">Full Stack Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus incidunt aliquid
+                                commodi necessitatibus? Tenetur, dolor.</p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-dark shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="mb-3">Data Science</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus incidunt aliquid
+                                commodi necessitatibus? Tenetur, dolor.</p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-dark shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-laptop"></i>
+                            </div>  
+                            <h3 class="mb-3">Cyber Security</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus incidunt aliquid
+                                commodi necessitatibus? Tenetur, dolor.</p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- learn -->
+
+    <section id="about" class="p-5 bg-light text-dark">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md me-5">
+                    <h2>We are one the biggest and trusted online platform</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi quam aspernatur soluta
+                        dolore illum.
+                    </p>
+
+                    <a href="#" class="btn btn-dark text-light shadow-lg">
+                        Read More<i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="img/img1 (2).jpg" class="img-fluid d-none d-sm-block w-100" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our student -->
+
+    <section class="p-4 bg-info text-dark ">
+        <h2 class="text-center mt-4">What our student Says<br> about us</h2>
+        <div class="container">
+
+            <div class="row g-5 text-center  p-5 ">
+                <div class="col-md">
+                    <div class="card bg-light text-dark shadow-lg">
+                        <div class="card-body text-center">
+                            <img src="testimonials/testimonials-3.jpg" class="img-fluid mb-3 w-50 rounded-circle">
+                            <h4 class="mt-4">Helen John</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, totam.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-skype text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-twitch text-dark mx-1 "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <img src="testimonials/testimonials-1.jpg" class="img-fluid mb-3 w-50 rounded-circle">
+                            <h4 class="mt-4">Collins Smith</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, molestias?!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-skype text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-twitch text-dark mx-1 "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center ">
+                            <img src="testimonials/testimonials-2.jpg" class="img-fluid mb-3 w-50 rounded-circle ">
+                            <h4 class="mt-4">Rose Brian</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, placeat?</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-skype text-dark mx-1 "></i></a>
+                            <a href="#"><i class="bi bi-twitch text-dark mx-1 "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="p-5 text-dark ">
+        <div class="container">
+            <h2 class="mt-4 text-center fs-1">Subscribe to our Newsletter</h2>
+            <form>
+                <div class="row g-3 align-items-center mt-3 mx-4 p-3">
+                    <label for="email" class="form-label fs-0 fw-bold">Name</label>
+                    <input type="email" class="form-control mb-3 border-info" placeholder="Enter your name">
+                    <label for="email" class="form-label fs-0 fw-bold">Email address</label>
+                    <input type="email" class="form-control border-info" placeholder="example@yourmail.com">
+                </div>
+            </form>
+            <div class="row align-items-center px-5">
+                <button class="btn btn-block  btn-outline-info text-light btn-dark text-center mt-3 fs-4 shadow-sm "
+                    style="transition:all 0.4s ease-in;">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact -->
+    <section id="contact" class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class=" list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Head Office Location:</span> 50 brian Avenue
+                            London United kingdom
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone Number 1:</span> (222)
+                            222-2222
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone Number 2:</span> (444)
+                            222-2222
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Company Email:</span>
+                            Cred@email.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="bg-dark p-4 mt-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between mx-auto">
+                <div class="col-md">
+                    <h2 class="text-light me-4 fs-2">Cred</h2>
+                    <p class="mt-3 text-light mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+                        cupiditate, veritatis expedita non saepe nobis!</p>
+                </div>
+
+                <div class="col-md">
+                    <h3 class="text-light">Explore</h3>
+                    <ul class="list-unstyled px-2">
+                        <li><a href="#home" class="text-decoration-none text-light ">Home</a></li>
+                        <li><a href="#blog" class="text-decoration-none text-light">Blog</a></li>
+                        <li><a href="#about" class="text-decoration-none text-light">About</a></li>
+                        <li><a href="#contact" class="text-decoration-none text-light">Contact</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-md">
+                    <h3 class=" text-light ">Our Services</h3>
+                    <ul class="list-unstyled px-2">
+                        <li><a href="#" class="text-decoration-none text-light ">Affilliate Marketing</a></li>
+                        <li><a href="#" class="text-decoration-none text-light ">Customer Care</a></li>
+                        <li><a href="#" class="text-decoration-none text-light ">FAQ</a></li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div class="copyright text-light  position-relative mt-3">
+                <p class="lead text-center">Copyright &copy; 2023 Cred online course</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-2">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+            </div>
+            <hr>
+            <div class="text-center mt-2">
+                <a href="#"><i class="bi bi-twitter text-light mx-1 "></i></a>
+                <a href="#"><i class="bi bi-facebook text-light mx-1 "></i></a>
+                <a href="#"><i class="bi bi-linkedin text-light mx-1 "></i></a>
+                <a href="#"><i class="bi bi-instagram text-light mx-1 "></i></a>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    -->
+
+</body>
+
+</html>
