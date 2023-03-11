@@ -5,22 +5,4 @@ body::before {
     display: block;
     content: '';
     height: 60px;
-}
 
-.nav-link{
-    color: #fff !important;
-    transition: all 0.6s ease-in;
-}
-
-
-.nav-link:hover{
-    background: #00b1f2;
-    border-radius: 20px;
-}
-.mimg{
-    transition: all 0.7s ease-in;
-}
-.mimg:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-}
